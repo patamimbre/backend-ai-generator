@@ -1,0 +1,27 @@
+{
+  "name": "backend-ai-generator",
+  "version": "0.0.1",
+  "description": "Generate backend API from ER diagram",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx src/index.ts",
+    "dev:watch": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "Germán Castro",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^0.0.27",
+    "@ai-sdk/openai": "^0.0.37",
+    "@clack/core": "^0.3.4",
+    "@clack/prompts": "^0.7.0",
+    "ai": "^3.2.29",
+    "giget": "^1.2.3",
+    "ollama-ai-provider": "^0.10.0",
+    "tsx": "^4.16.2"
+  }
+}
